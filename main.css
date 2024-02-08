@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "SpaceMono700";
+    src: url("../fonts/SpaceMono700.ttf");
+}
+
+@font-face {
+    font-family: "LexendDeca-Regular400";
+    src: url("../fonts/LexendDeca-Regular400.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 0px;
+    background-color: #ffffff;
+    height: 3050px;
+    /* border: 1px solid black; */
+}
+
+.header>img {
+    width: 107px;
+    height: 28px;
+    display: flex;
+}
+
+.btn1 {
+    width: 180px;
+    height: 53px;
+    margin-top: 22px;
+    background-color: #fcb72b;
+    border: 2px solid #fcb72b;
+    color: #efefef;
+    transition: 0.5s;
+    font-family: "SpaceMono700";
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 2px solid #fcb72b;
+    color: #fcb72b;
+    transition: 0.5s;
+}
+
+.header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+}
+
+.otish {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+    margin-left: 100px;
+    font-family: "SpaceMono700";
+    color: #939caa;
+}
+
+.header>img {
+    margin-top: 25px;
+}
+
+.grop22 {
+    width: 1440px;
+    height: 200px;
+
+
+}
+
+.text_one {
+    width: 445px;
+    height: 96px;
+
+    margin-top: 300px;
+    margin-left: 100px;
+
+
+}
+
+.xc {
+    border-radius: 250px;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+
+.vb {
+    margin-left: -700px;
+    margin-top: 150px;
+
+}
+
+.zx {
+    width: 180px;
+     height: 53px;
+     background-color: #fcb72b;
+     margin-top: 100px;
+     position: absolute;
+     margin-left: -1300px;
+}
+.zx:hover{
+   background-color: tomato;
+}
+.fg{
+    margin-left: -700px;
+    margin-top: 240px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #495567;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin-top: 100px;
+}
+
+.esndEl {
+    background-color: #373f4a;
+}
+
+.bi-facebook {
+    font-size: 30px;
+    color: #fcb72b;
+}
+
+.bi-twitter {
+    font-size: 30px;
+    color: #fcb72b;
+}
+
+.bi-instagram {
+    font-size: 30px;
+    color: #fcb72b;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+    padding-right: 100px;
+}
+
+.btnn {
+    margin-right: 100px;
+}
+
+.asosiyimg {
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 145px;
+}
